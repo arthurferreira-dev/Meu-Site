@@ -20,7 +20,7 @@
 
 body {
     font-family: var(--inter);
-    background-image: linear-gradient(to left, #091973, #0A31A6);
+    background-color:#0A31A6;
     background-attachment: fixed;
     background-size: cover;
 }

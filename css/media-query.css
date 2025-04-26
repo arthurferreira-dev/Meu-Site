@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 775px) {
 
+    body {
+        background-image: linear-gradient(to left, #091973, #0A31A6);
+    }
+
     footer > p {
         font-size: 1em;
     }
