@@ -24,6 +24,22 @@ body {
     background-size: cover;
 }
 
+main {
+    background-color: #cccccc;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+img#img-0-1-0 {
+    display: block;
+    height: 300px;
+    margin: auto;
+}
+
 menu {
     display: block;
     background-color: #fff;
