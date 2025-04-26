@@ -25,6 +25,11 @@ body {
     background-size: cover;
 }
 
+h1#h1-art {
+    text-align: center; 
+    padding: 2px 0px 2px 0px;
+}
+
 p#p-footer {
     font-family: var(--roboto);
 }
@@ -188,4 +193,8 @@ p.p-coment {
     text-align: center;
     margin-top: 6px;
     font-weight: bold;
+}
+
+p#none-indent {
+    text-indent: 0px;
 }
