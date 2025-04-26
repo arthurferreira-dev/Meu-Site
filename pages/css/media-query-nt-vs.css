@@ -12,4 +12,13 @@
         display: block;
         text-align: center;
     }
+
+    footer {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
 }
