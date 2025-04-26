@@ -6,15 +6,18 @@
     <title>Multhingss - Home</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
 <body>
-    <header>
+    <header onresize="Tamanho()">
         <h1></h1>
-        <menu>
+        <i class="material-symbols-outlined" id="menu-burger" onclick="cliqueMenu()">menu</i>
+        <menu id="itens">
             <ul>
-                <li>Teste 01</li>
-                <li>Teste 02</li>
-                <li>Teste 03</li>
+                <li><a href="#">Teste 01</a></li>
+                <li><a href="#">Teste 02</a></li>
+                <li><a href="#">Teste 03</a></li>
             </ul>
         </menu>
     </header>
@@ -22,7 +25,7 @@
         
     </main>
     <footer>
-        <p></p>
+        <p id="p-footer">Site desenvolvido por <a href="https://github.com/arthurferreira-dev" target="_blank" class="link-footer">Arthur Ferreira Dev</a> para o canal <a href="https://www.youtube.com/@Multhingss" target="_blank" class="link-footer">@Multhingss</a></p>
     </footer>
 </body>
 <script src="js/script.js"></script>
