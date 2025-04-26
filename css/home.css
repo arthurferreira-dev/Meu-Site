@@ -10,15 +10,23 @@
     margin: 0px;
 }
 
+:root {
+    --inter: 'Inter', Arial, Helvetica, sans-serif;
+    --roboto: 'Roboto', Arial, Helvetica, sans-serif;
+    --chopin: 'Chopin', Verdana, Arial, sans-serif;
+
+    --dark-gray: #282828;
+}
+
 body {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: var(--inter);
     background-image: linear-gradient(to left, #091973, #0A31A6);
     background-attachment: fixed;
     background-size: cover;
 }
 
 p#p-footer {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: var(--roboto);
 }
 
 a.link-footer {
@@ -40,13 +48,13 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-align: center;
-    color: #282828;
+    color: var(--dark-gray);
     font-weight: 700;
     transition: all 0.38s;
 }
 
 menu > ul > li > a:hover {
-    background-color: #282828;
+    background-color: var(--dark-gray);
     color: #fff;
 }
 
@@ -63,7 +71,7 @@ menu {
     background-color: #fff;
     border-bottom-right-radius: 6.5px;
     border-bottom-left-radius: 6.5px;
-    padding-left: 40px;
+    padding-left: 1px;
     width: 1103.150;
     height: 39.282;
     margin: 0px;
@@ -71,17 +79,27 @@ menu {
 
 i#menu-burger {
     background-color: #fff;
-    padding: 3px;
+    color: #000;
+    padding-bottom: 3px;
     border-radius: 0px;
-    font-size: 1.55em;
+    font-size: 1.66em;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.46s;
+}
+
+i#menu-burger:hover {
+    background-color: var(--dark-gray);
+    color: #fff;
 }
 
 footer {
     background-color: #fff;
-    padding: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-top-right-radius: 3.5px;
     border-top-left-radius: 3.5px;
-    width: 99%;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -107,7 +125,7 @@ img#profile {
 }
 
 img#profile:hover {
-    scale: 1.13;
+    scale: 1.11;
     box-shadow: 4px 6px 7px #0000008c;
 }
 
@@ -127,5 +145,47 @@ h1 > a#h1-link {
 
 p#p-desc {
     text-align: justify;
+    padding: 2px;
+    color: #121212;
+    width: 60%;
+    margin: auto;
+}
+
+article > p {
+    text-indent: 12px;
+    text-align: justify;
+    padding: 2px;
+    color: #121212;
+    width: 60%;
+    margin: auto;
+}
+
+a.link-yt {
+    color: #fff;
+    background-color: #000;
     padding: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a.link-yt:hover {
+    text-decoration: underline;
+}
+
+a.link-yt::after {
+    content: '🔗';
+}
+
+.chopin-fonts {
+    font-family: var(--chopin);
+}
+
+.normal-inter {
+    font-family: var(--inter);
+}
+
+p.p-coment {
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
 }

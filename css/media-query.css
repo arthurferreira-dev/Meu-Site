@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 775px) {
+
     footer > p {
-        font-size: 1.17em;
+        font-size: 1em;
     }
+
     i#menu-burger {
         display: none;
     }
@@ -14,9 +16,20 @@
 
     menu {
         display: block;
+        text-align: center;
     }
 
     main {
         width: 775px;
+    }
+
+    img#profile:hover {
+        scale: 1.135;
+        box-shadow: 4px 6px 7px #0000008c;
+    }
+
+    footer {
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
