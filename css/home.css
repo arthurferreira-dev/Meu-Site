@@ -87,10 +87,12 @@ footer {
 
 footer > p {
     text-align: center;
+    font-size: 0.88em;
 }
 
 main {
     margin: auto;
+    margin-top: 10px;
     background-color: #5066a9;
     width: 99%;
     border-radius: 6.5px;
@@ -100,7 +102,13 @@ main {
 img#profile {
     display: block;
     margin: auto;
+    border-radius: 6px;
+    transition-duration: 0.36s;
+}
 
+img#profile:hover {
+    scale: 1.13;
+    box-shadow: 4px 6px 7px #0000008c;
 }
 
 a#h1-link {
@@ -115,4 +123,9 @@ a#h1-link:hover {
 h1 > a#h1-link {
     text-align: center;
     padding: 10px;
+}
+
+p#p-desc {
+    text-align: justify;
+    padding: 1px;
 }

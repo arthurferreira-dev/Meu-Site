@@ -9,9 +9,12 @@ function cliqueMenu() {
 
 function Tamanho() {
     var itens = document.getElementById('itens')
-    if (window.innerWidth >= 775) {
+    if (window.innerWidth >= 780) {
         itens.style.display = 'block'
     } else {
         itens.style.display = 'none'
+    }
+    if (itens.style.display == 'none') {
+        itens.style.display = 'block'
     }
 }

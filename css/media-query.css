@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 775px) {
+    footer > p {
+        font-size: 1.17em;
+    }
     i#menu-burger {
         display: none;
     }
