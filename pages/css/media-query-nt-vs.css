@@ -9,6 +9,11 @@
         background-image: linear-gradient(to right, #bdbdbd, #9e9e9e);
     }
 
+    p#version-0-1-0 {
+        width: 40%;
+        margin: auto;
+    }
+
     i#menu-burger {
     display: none;
     }
