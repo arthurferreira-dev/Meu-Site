@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 515px){
+    footer > p {
+        text-align: center;
+        font-size: 0.75em;
+    }
+}
