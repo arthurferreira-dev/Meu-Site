@@ -136,3 +136,8 @@ a.link-footer::after {
 a.link-footer:hover {
     text-decoration: underline;
 }
+
+img.img-0-1-4 {
+    width: 999px;
+    height: 12.5px;
+}
