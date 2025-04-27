@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 775px) {
+
+    body {
+        background-image: linear-gradient(to left, #091973, #0A31A6);
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
+
+    i#menu-burger {
+        display: none;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    main {
+        width: 775px;
+    }
+
+    footer {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 25.7%;
+    }
+}
