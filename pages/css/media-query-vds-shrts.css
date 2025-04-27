@@ -31,4 +31,20 @@
         padding-top: 8px;
         padding-bottom: 8px;
     }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 3.5%;
+        width: 93%;
+        height: 90%;
+    }
+
+    h1#titulo {
+        font-size: 1.75em;
+    }
+
+    main#main-second {
+        width: 55%;
+    }
 }

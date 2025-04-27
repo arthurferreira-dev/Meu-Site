@@ -118,3 +118,76 @@ main {
     border-radius: 6.5px;
     padding: 2px;
 }
+
+div.video {
+    margin: 0px 0px 30px -20px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 93%;
+    height: 90%;
+}
+
+h1#titulo {
+    text-align: center;
+    margin-bottom: -15px;
+    font-size: 1.68em;
+}
+
+p#p-shrts {
+    font-size: 1.45em;
+    background-color: #000;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 4.5px;
+    padding: 2px;
+    transition-duration: 0.37s;
+}
+
+p#p-shrts:hover {
+    scale: 1.09;
+}
+
+p#p-shrts::after {
+    content: '➡️';
+}
+
+#p-shrts > a {
+    color: #fff;
+}
+
+#shrt-titulo {
+    text-align: center;
+    font-size: 1.88em;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 1.44em;
+    margin-top: 10px;
+}
+
+img.shorts {
+    margin: auto;
+    display: block;
+    border-radius: 6px;
+    transition-duration: 0.37s;
+}
+
+img.shorts:hover {
+    scale: 1.045;
+    box-shadow: 6px 5px 7px #00000086;
+}  
+
+main#main-second {
+    width: 88%;
+}
