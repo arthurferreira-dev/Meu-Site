@@ -158,7 +158,7 @@ p#p-desc {
 
 article > p {
     text-indent: 12px;
-    text-align: justify;
+    text-align: left;
     padding: 2px;
     color: #121212;
     width: 60%;
