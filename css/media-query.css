@@ -7,7 +7,15 @@
     }
 
     footer > p {
-        font-size: 0.72em;
+        font-size: 0.71em;
+    }
+
+    article > p {
+        font-size: 1.2em;
+    }
+
+    p.p-coment {
+        font-size: 1.3em;
     }
 }
 
@@ -50,5 +58,9 @@
     footer {
         padding-top: 8px;
         padding-bottom: 8px;
+    }
+
+    p.p-coment {
+        font-size: 1.1em;
     }
 }
