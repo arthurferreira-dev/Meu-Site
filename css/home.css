@@ -126,12 +126,6 @@ img#profile {
     display: block;
     margin: auto;
     border-radius: 6px;
-    transition-duration: 0.36s;
-}
-
-img#profile:hover {
-    scale: 1.11;
-    box-shadow: 4px 6px 7px #0000008c;
 }
 
 a#h1-link {
