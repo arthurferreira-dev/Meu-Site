@@ -9,6 +9,10 @@
     footer > p {
         font-size: 0.72em;
     }
+
+    article {
+        width: 85%;
+    }
 }
 
 
@@ -47,5 +51,9 @@
 
     footer > p {
         font-size: 1em;
+    }
+
+    article {
+        width: 65%;
     }
 }
