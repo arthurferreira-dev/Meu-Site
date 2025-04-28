@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 320px) and (max-width: 460px) {
+
+    body {
+        background-color:#0A31A6;
+    }
+
+    footer > p {
+        font-size: 0.71em;
+    }
+}
+
 @media screen and (min-width: 775px) {
 
     body {
@@ -11,7 +22,7 @@
     }
 
     i#menu-burger {
-    display: none;
+        display: none;
     }
 
     menu > ul > li {
@@ -46,5 +57,14 @@
 
     p#p-smn {
         font-size: 1.3em;
+    }
+
+    .img-box {
+        transition-duration: 0.38s;
+    }
+    
+    .img-box:hover {
+        scale: 1.075;
+        box-shadow: 4.5px 5.5px 6px #0000008b;
     }
 }

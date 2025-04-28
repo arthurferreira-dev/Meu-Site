@@ -135,15 +135,6 @@ a.link-footer:hover {
     height: 215px;
 }
 
-.img-box {
-    transition-duration: 0.38s;
-}
-
-.img-box:hover {
-    scale: 1.075;
-    box-shadow: 4.5px 5.5px 6px #0000008b;
-}
-
 h1#titulo {
     margin-bottom: 4.5px;
 }

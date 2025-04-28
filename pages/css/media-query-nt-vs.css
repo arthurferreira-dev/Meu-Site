@@ -1,3 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+
+    body {
+        background-color:#0A31A6;
+    }
+
+    footer > p {
+        font-size: 0.72em;
+    }
+}
+
 
 @media screen and (min-width: 775px) {
 
