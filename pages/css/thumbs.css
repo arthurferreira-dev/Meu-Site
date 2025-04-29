@@ -118,11 +118,9 @@ a.link-footer:hover {
     text-decoration: underline;
 }
 
-#arma_shoope {
+#video_recente {
     border: 1px solid #000;
-    border-top: 0.4px;
-    border-left: 0.5px;
-    height: 215px;
+    height: 198px;
 }
 
 #mine-thumb {
