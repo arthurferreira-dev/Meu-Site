@@ -10,7 +10,23 @@
     }
 
     footer > p {
-        font-size: 0.71em;
+        font-size: 0.68em;
+    }
+
+    div.video {
+        margin: 0px 0px 30px 20px;
+        padding: 0px;
+        padding-right: 0px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+    
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        width: 93%;
+        height: 90%;
     }
 }
 

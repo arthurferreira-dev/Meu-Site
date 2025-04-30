@@ -13,6 +13,10 @@
     article {
         width: 85%;
     }
+
+    img#img-0-1-1 {
+        height: 200px;
+    }
 }
 
 
@@ -23,7 +27,7 @@
     }
 
     main {
-        background-image: linear-gradient(to right, #bdbdbd, #9e9e9e);
+        background-image: linear-gradient(to right, #cccccc 22%, #acacac);
     }
 
     p#version-0-1-0 {
@@ -45,11 +49,11 @@
     }
 
     img#img-0-1-0 {
-        height: 300px;
+        height: 280px;
     }
 
     img#img-0-1-1 {
-        height: 450px;
+        height: 385px;
     }
 
     footer {

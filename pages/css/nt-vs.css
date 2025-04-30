@@ -47,7 +47,7 @@ img#img-0-1-0 {
 
 img#img-0-1-1 {
     display: block;
-    height: 380px;
+    height: 250px;
     margin: auto;
     border: 1px solid #000;
 }
@@ -122,7 +122,7 @@ footer {
 
 footer > p {
     text-align: center;
-    font-size: 0.66em;
+    font-size: 0.86em;
 }
 
 a.link-footer {
