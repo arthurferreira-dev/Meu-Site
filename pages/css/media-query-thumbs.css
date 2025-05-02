@@ -12,17 +12,17 @@
 
     #video_recente {
         border: 1px solid #000;
-        height: 135px;
+        height: 35px;
     }
     
     #melhor_video {
         border: 1px solid #000;
-        height: 195px;
+        height: 35px;
     }
     
     #melhor_musica {
         border: 1px solid #000;
-        height: 195px;
+        height: 35px;
     }
 }
 
