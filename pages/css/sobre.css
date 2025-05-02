@@ -120,16 +120,16 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 a#link {
     background-color: #000;
     color: #fff;
     padding: 2px;
     border-radius: 5px;
     margin-top: 6px;
+}
+
+a#link:hover {
+    text-decoration: underline;
 }
 
 article {

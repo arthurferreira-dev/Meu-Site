@@ -9,6 +9,21 @@
     footer > p {
         font-size: 0.68em;
     }
+
+    #video_recente {
+        border: 1px solid #000;
+        height: 165px;
+    }
+    
+    #melhor_video {
+        border: 1px solid #000;
+        height: 165px;
+    }
+    
+    #melhor_musica {
+        border: 1px solid #000;
+        height: 165px;
+    }
 }
 
 @media screen and (min-width: 775px) {
@@ -18,7 +33,7 @@
     }
 
     main {
-        background-image: linear-gradient(to right, #f75959, #e52626);
+        background-image: linear-gradient(to left, #f75959, #e52626);
     }
 
     i#menu-burger {
@@ -43,15 +58,15 @@
         font-size: 1em;
     }
 
-    #arma_shoope {
+    #video_recente {
         height: 200px;
     }
 
-    #mine-thumb {
+    #melhor_video {
         height: 200px;
     }
 
-    #rap-mine-thumb {
+    #melhor_musica {
         height: 200px;
     }
 

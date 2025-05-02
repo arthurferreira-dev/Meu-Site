@@ -120,17 +120,17 @@ a.link-footer:hover {
 
 #video_recente {
     border: 1px solid #000;
-    height: 198px;
+    height: 185px;
 }
 
-#mine-thumb {
+#melhor_video {
     border: 1px solid #000;
-    height: 215px;
+    height: 185px;
 }
 
-#rap-mine-thumb {
+#melhor_musica {
     border: 1px solid #000;
-    height: 215px;
+    height: 185px;
 }
 
 h1#titulo {
