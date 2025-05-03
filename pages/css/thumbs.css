@@ -118,21 +118,6 @@ a.link-footer:hover {
     text-decoration: underline;
 }
 
-#video_recente {
-    border: 1px solid #000;
-    height: 185px;
-}
-
-#melhor_video {
-    border: 1px solid #000;
-    height: 185px;
-}
-
-#melhor_musica {
-    border: 1px solid #000;
-    height: 185px;
-}
-
 h1#titulo {
     margin-bottom: 4.5px;
 }
