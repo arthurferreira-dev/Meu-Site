@@ -68,4 +68,11 @@
     article {
         width: 65%;
     }
+
+    i#xmark {
+        background-color: #fff;
+        padding: 4px;
+        margin-top: 0px;
+        border-radius: 45%;
+      }
 }

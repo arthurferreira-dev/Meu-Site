@@ -164,6 +164,13 @@ article {
     }
 }
 
+i#xmark {
+  background-color: #fff;
+  padding: 4px;
+  margin-top: 1px;
+  border-radius: 45%;
+}
+
 /*
 body, html {
     height: 100%;
