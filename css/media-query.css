@@ -63,4 +63,13 @@
     p.p-coment {
         font-size: 1.1em;
     }
+
+    input#name-btn {
+        transition-duration: .36s;
+    }
+
+    input#name-btn:hover {
+        scale: 1.10;
+        box-shadow: 5px 3.6px 6px #00000073;
+    }
 }

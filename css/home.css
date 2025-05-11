@@ -193,3 +193,15 @@ p.p-coment {
 p#none-indent {
     text-indent: 0px;
 }
+
+input#name-btn {
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-family: var(--chopin);
+    color: #000;
+    font-size: 0.95em;
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}

@@ -12,7 +12,6 @@
 </head>
 <body onresize="Tamanho()">
     <header>
-        <h1 id="title"></h1>
         <i class="fa-solid fa-xmark" id="menu-burger" onclick="cliqueMenu()"></i>
         <menu id="itens">
             <ul>
@@ -27,11 +26,13 @@
     </header>
     <main>
         <section>
+            <input type="button" value="Clique aqui!" onclick="Name()" id="name-btn">
+            <h1 id="title"></h1>
             <article>
                 <h1 id="h1-art">
                     <a href="https://www.youtube.com/@Multhingss" target="_blank" id="h1-link">@Multhingss</a>
                 </h1>
-                <img src="imgs/multhingss_profile.jpg" alt="Imagem de Perfil do Multhingss" id="profile">
+                <img src="imgs/multhingss_profile.jpg" alt="Imagem de Perfil do Multhingss" id="profile" style="margin-bottom: 6px;">
                 <p id="p-desc">Jogos,desafios,react, músicas, edits etc...Aqui é a tropinha dos gamers &#x1F4BB;&#x1F3AE;&#x1F4E2;,Vídeo quase todos os dias,pois as vezes estou me divertindo ou aprimorarando os videos</p>
                 <br>
                 <p>
@@ -51,5 +52,6 @@
         <p id="p-footer">Site desenvolvido por <a href="https://github.com/arthurferreira-dev" target="_blank" class="link-footer">Arthur Ferreira Dev</a> para o canal <a href="https://www.youtube.com/@Multhingss" target="_blank" class="link-footer">@Multhingss</a></p>
     </footer>
 </body>
+<script src="js/welcome.js"></script>
 <script src="js/script.js"></script>
 </html>

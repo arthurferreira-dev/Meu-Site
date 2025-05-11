@@ -38,18 +38,23 @@ main {
     text-align: center;
 }
 
-img#img-0-1-0 {
+img {
     display: block;
-    height: 250px;
-    margin: auto;
     border: 1px solid #000;
+    margin: auto;
+}
+
+img#img-0-1-0 {
+    height: 250px;
 }
 
 img#img-0-1-1 {
-    display: block;
     height: 250px;
-    margin: auto;
-    border: 1px solid #000;
+}
+
+img#img-0-1-9 {
+    border: 1.65px solid #000;
+    height: 270px;
 }
 
 p#version-0-1-0 {

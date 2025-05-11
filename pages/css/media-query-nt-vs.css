@@ -17,6 +17,14 @@
     img#img-0-1-1 {
         height: 200px;
     }
+
+    img#img-0-1-9 {
+        height: 222px;
+    }
+
+    p-break-1 {
+        font-size: 11.5px;
+    }
 }
 
 
@@ -74,5 +82,13 @@
         padding: 4px;
         margin-top: 0px;
         border-radius: 45%;
-      }
+    }
+
+    img#img-0-1-9 {
+        height: 365px;
+    }
+
+    p-break-1 {
+        font-size: 15px;
+    }
 }
