@@ -67,4 +67,8 @@
         scale: 1.045;
         box-shadow: 6px 5px 7px #00000086;
     }  
+
+    p#p-shrts:hover {
+        scale: 1.09;
+    }
 }

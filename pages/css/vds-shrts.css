@@ -155,10 +155,6 @@ p#p-shrts {
     transition-duration: 0.37s;
 }
 
-p#p-shrts:hover {
-    scale: 1.09;
-}
-
 p#p-shrts::after {
     content: '➡️';
 }
